@@ -137,7 +137,7 @@ public class XashActivity extends SDLActivity {
 		if (basedir != null) {
 			nativeSetenv("XASH3D_BASEDIR", basedir);
 		} else {
-			String rootPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/xash";
+			String rootPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "Android/data/su.xash.engine.test";
 			nativeSetenv("XASH3D_BASEDIR", rootPath);
 		}
 
